@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SkeletonRzut
+namespace SkeletonRzut // push wypchnięty
 {
     public partial class MainWindow : Window
     {
