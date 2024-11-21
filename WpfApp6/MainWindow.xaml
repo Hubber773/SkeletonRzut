@@ -17,7 +17,7 @@
                 <TextBlock Text="Liczba ścian kostki:" Margin="0,0,10,0"></TextBlock>
                 <Slider Name="liczbaScianSlider" Minimum="4" Maximum="10" Width="100"></Slider>
             </StackPanel>
-            <Button Background="#D2691E" Click="RzucKostkami_Click" Margin="0,10">Rzuć kostkami</Button>
+            <Button Background="#D2691E" Click="RzucKostkami_Click" Margin="0,10">Rzuć kostkami :)))))</Button>
             <Button Background="#D2691E" Click="ResetujWynik_Click" Margin="0,10">Resetuj wynik ogólny</Button>
             <StackPanel Name="wynikiPanel" Orientation="Horizontal" Margin="0,10">
             </StackPanel>
