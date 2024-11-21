@@ -1,0 +1,28 @@
+﻿<Window x:Class="SkeletonRzut.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SkeletonRzut"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"  Background="Gray">
+    <Grid>
+        <TextBlock Foreground="#A52A2A" FontSize="20" HorizontalAlignment="Center" Margin="0,10,0,0">Gra w kości :) Autor: Dawid Kwidziński</TextBlock>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,50,0,0">
+            <StackPanel Orientation="Horizontal" Margin="0,10">
+                <TextBlock Margin="0,0,10,0">Liczba kostek:</TextBlock>
+                <Slider Name="liczbaKostekSlider" Minimum="1" Maximum="6" Width="100"></Slider>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10">
+                <TextBlock Text="Liczba ścian kostki:" Margin="0,0,10,0"></TextBlock>
+                <Slider Name="liczbaScianSlider" Minimum="4" Maximum="10" Width="100"></Slider>
+            </StackPanel>
+            <Button Background="#D2691E" Click="RzucKostkami_Click" Margin="0,10">Rzuć kostkami</Button>
+            <Button Background="#D2691E" Click="ResetujWynik_Click" Margin="0,10">Resetuj wynik ogólny</Button>
+            <StackPanel Name="wynikiPanel" Orientation="Horizontal" Margin="0,10">
+            </StackPanel>
+            <TextBlock Name="wynikAktualny" Margin="0,10">Wynik aktualnego rzutu:</TextBlock>
+            <TextBlock Name="wynikOgolny" Margin="0,10">Wynik ogólny:</TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
